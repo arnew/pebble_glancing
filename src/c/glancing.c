@@ -1,8 +1,8 @@
 #include <pebble.h>
-#include "glancing_api.h"
+#include "glancing.h"
 
 // Enable debugging of glancing, currently just vibrate on glancing
-#define DEBUG
+//#define DEBUG
 
 #ifndef WITHIN
 #define WITHIN(n, min, max) ((n) >= (min) && (n) <= (max))
